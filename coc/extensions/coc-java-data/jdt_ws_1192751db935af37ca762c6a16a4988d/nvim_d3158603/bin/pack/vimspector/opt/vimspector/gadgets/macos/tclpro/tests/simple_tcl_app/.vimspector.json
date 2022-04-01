@@ -1,0 +1,13 @@
+{
+    "configurations": {
+        "launch": {
+            "adapter": "tclpro",
+            "configuration": {
+                "request": "launch",
+                "cwd": "${workspaceRoot}",
+                "target": "${workspaceRoot}/main.tcl",
+                "args": [ "this", "is", "a", "test" ]
+            }
+        }
+    }
+}

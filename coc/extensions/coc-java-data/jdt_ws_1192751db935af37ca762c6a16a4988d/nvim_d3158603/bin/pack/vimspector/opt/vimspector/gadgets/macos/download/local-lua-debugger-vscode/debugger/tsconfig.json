@@ -1,0 +1,23 @@
+{
+    "compilerOptions":
+    {
+        "target": "es6",
+        "strict": true,
+        "keyofStringsOnly": true,
+        "typeRoots": [],
+        "noLib": true,
+        "sourceMap": true,
+        "rootDir": "."
+    },
+    "include": [
+        "./**/*.ts"
+    ],
+    "tstl":
+    {
+        "luaTarget": "5.1",
+        "noImplicitSelf": true,
+        "noHeader": true,
+        "luaBundle": "lldebugger.lua",
+        "luaBundleEntry": "lldebugger.ts"
+    }
+}
