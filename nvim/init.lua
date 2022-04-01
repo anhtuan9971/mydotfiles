@@ -40,6 +40,7 @@ vim.call('plug#begin', '~/.config/nvim/plugged')
 --code runner
 Plug 'xianzhon/vim-code-runner'
 Plug ('neoclide/coc.nvim', {branch = 'release'})
+Plug 'mfussenegger/nvim-jdtls'
 vim.call('plug#end')
 vim.cmd [[
 let g:code_runner_save_before_execute = 1
